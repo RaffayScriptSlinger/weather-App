@@ -1,0 +1,64 @@
+/* style.css */
+body {
+  background: linear-gradient(to right, #6dd5ed, #2193b0);
+  font-family: 'Arial', sans-serif;
+}
+
+.navbar {
+  background: #ffffff;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.nav-link {
+  color: #2193b0;
+  font-weight: bold;
+}
+
+.nav-link.active, .nav-link:hover {
+  color: #6dd5ed;
+}
+
+#mainContainer {
+  min-height: 80vh;
+}
+
+#container {
+  background: #ffffff;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  width: 100%;
+}
+
+#input {
+  padding: 0.5rem;
+  font-size: 1.2rem;
+}
+
+#btn {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+}
+
+p {
+  font-size: 1.2rem;
+  color: #666;
+}
+
+h1 {
+  margin: 1rem 0;
+  font-size: 2.5rem;
+  color: #333;
+}
+
+#weather, #temperature, #humidity, #feels-like, #wind {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.spinner-border {
+  width: 3rem;
+  height: 3rem;
+}
